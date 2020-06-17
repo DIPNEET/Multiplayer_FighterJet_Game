@@ -46,12 +46,12 @@ function draw(){
   if(gameState === 2){
     game.end();
   }
-  if(g1.collide(jet1)){
+  if(g1.collide(jet2)){
     player.score--;
    g1.destroyEach();
   
   }
-  if(g2.collide(jet2)){
+  if(g2.collide(jet1)){
     player.score--;
     g2.destroyEach();
     
