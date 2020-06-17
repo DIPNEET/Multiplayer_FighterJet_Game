@@ -93,7 +93,7 @@ class Game {
             bullet.scale=0.5
             g2.add(bullet)
           }}
-          if(touches.length>0){
+          /*if(touches.length>0){
             if(player.distance < 3490&&player.distance > -1050){
               form.fire.mousePressed(()=>{
                 if(x===170){
@@ -117,7 +117,7 @@ class Game {
 
               touches=[]
 
-          }
+          }*/
         }
         
         
@@ -151,7 +151,7 @@ class Game {
       player.distance -=27
       player.update();
     }
-   if(touches.length>0){
+  /* if(touches.length>0){
     if(player.index !== null&&player.distance < 3500&&player.distance >-1100){
 
     form.up.mousePressed(()=>{
@@ -169,7 +169,7 @@ class Game {
 
 touches=[]
 
-   }
+   }*/
     if(player.distance > 3495  ){
       gameState = 2;
       player.rank +=1
