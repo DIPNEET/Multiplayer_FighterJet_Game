@@ -1,0 +1,36 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+canvas{
+  border: 2px solid black;
+}
+h1{
+  color:white;
+  font-size:80px;
+  font-style: italic;
+ 
+  
+
+}
+h2{
+  color:white;
+  font-size:40px;
+  
+  
+
+}
+h3{
+  color:rgb(247, 90, 116);
+  font-size:40px;
+  
+  
+
+}
+h4{
+  color:white;
+  
+  
+
+}
