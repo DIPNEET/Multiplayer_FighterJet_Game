@@ -68,7 +68,7 @@ class Form {
       //player.updateScore(0);
       
     });
-   
+    
 
   }
 }
