@@ -33,7 +33,7 @@ class Form {
     this.title.html("FIGHTER JETS ");
     this.title.position(displayWidth/2 - 280, 400);
    
-     this.title1.html("Welcome To The Game World");
+     this.title1.html("  Welcome To The Game World");
     this.title1.position(displayWidth/2 - 320, 560);
     this.title2.html("ENTER YOUR NAME TO PLAY!");
     this.title2.position(displayWidth/2-350, 190);
